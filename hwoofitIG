@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HWOOFIT Links</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            max-width: 400px;
+            width: 100%;
+            background: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .logo {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #FF6F61;
+            margin-bottom: 20px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .link {
+            text-decoration: none;
+            background: #FF6F61;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .link:hover {
+            background: #e55b51;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .social-icons a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">HWOOFIT</div>
+        <div class="links">
+            <a class="link" href="#" target="_blank">Shop HWOOFIT</a>
+            <a class="link" href="#" target="_blank">Membership Benefits</a>
+            <a class="link" href="#" target="_blank">How to Choose Your Leggings?</a>
+            <a class="link" href="#" target="_blank">See what our fans say about us!</a>
+        </div>
+        <div class="footer">
+            <p>COMFY at your own fit</p>
+            <div class="social-icons">
+                <a href="#" target="_blank">&#x1F30D;</a> <!-- Example Icon -->
+                <a href="#" target="_blank">&#x1F47E;</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
